@@ -3,6 +3,7 @@
 @section('content')
     <div class="container">
         <hr color="#c0c0c0">
+        <p class="col-md-2">ビューの変更はこれで大丈夫ですか？</p>
         @if (!is_null($headline))
             <div class="row">
                 <div class="headline col-md-10 mx-auto">
